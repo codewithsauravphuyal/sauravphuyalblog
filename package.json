@@ -1,5 +1,5 @@
 {
-  "name": "oneshotreactjs",
+  "name": "sauravphuyal.com.np",
   "homepage": "https://www.sauravphuyal.com.np/",
   "private": true,
   "version": "0.0.0",
@@ -21,6 +21,7 @@
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
     "express": "^4.20.0",
     "jquery": "^3.7.1",
     "jsonwebtoken": "^9.0.2",

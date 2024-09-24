@@ -1,4 +1,4 @@
-import { db } from "../config/dbConfig.js"; // Import the database pool
+import { db } from '../config/dbConfig.js';
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 

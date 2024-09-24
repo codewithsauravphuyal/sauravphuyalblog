@@ -20,13 +20,13 @@ function Footer() {
                             <a className="btn btn-link text-white-50" href="/contact">
                                 Contact Us
                             </a>
-                            <a className="btn btn-link text-white-50" href="">
+                            <a className="btn btn-link text-white-50" href="/ourservices">
                                 Our Services
                             </a>
-                            <a className="btn btn-link text-white-50" href="">
+                            <a className="btn btn-link text-white-50" href="/policy">
                                 Privacy Policy
                             </a>
-                            <a className="btn btn-link text-white-50" href="">
+                            <a className="btn btn-link text-white-50" href="/termsandcondition">
                                 Terms &amp; Condition
                             </a>
                         </div>
@@ -38,13 +38,13 @@ function Footer() {
                             <a className="btn btn-link text-white-50" href="/contact">
                                 Contact Us
                             </a>
-                            <a className="btn btn-link text-white-50" href="">
+                            <a className="btn btn-link text-white-50" href="/ourservices">
                                 Our Services
                             </a>
-                            <a className="btn btn-link text-white-50" href="">
+                            <a className="btn btn-link text-white-50" href="/policy">
                                 Privacy Policy
                             </a>
-                            <a className="btn btn-link text-white-50" href="">
+                            <a className="btn btn-link text-white-50" href="/termsandcondition">
                                 Terms &amp; Condition
                             </a>
                         </div>
@@ -101,10 +101,14 @@ function Footer() {
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                                 ©{" "}
-                                <a className="border-bottom" href="#">
-                                    logo
+                                <a className="border-bottom" href="/">
+                                    <img
+                                        src="https://raw.githubusercontent.com/codewithsauravphuyal/MyCertificates/refs/heads/main/logowhite.png"
+                                        alt="logo"
+                                        style={{ width: '100px', height: 'auto' }} // Adjust the width as needed
+                                    />
                                 </a>
-                                , All Right Reserved.
+                                , All Rights Reserved.
                                 Designed By{" "}
                                 <a className="border-bottom" href="/">
                                     Saurav Phuyal
@@ -115,12 +119,13 @@ function Footer() {
                                     <a href="">Home</a>
                                     <a href="">Cookies</a>
                                     <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="">FAQs</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             {/* Footer End */}
         </>

@@ -5,10 +5,12 @@ export const db = mysql.createPool({
   user: "root",
   password: "",
   database: "myblog",
+  port: 3306,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
 });
+
 
 // import mysql from "mysql";
 

@@ -309,23 +309,23 @@ const About = () => {
                                         <img src={team.image_url} alt={team.name} />
                                     </div>
                                     <div className="team-text">
-    <h2>{team.name}</h2>
-    <h4>{team.professional_title}</h4>
-    <div className="team-social">
-        <a className="teambtn" href={`https://www.facebook.com/${team.facebook_link}`} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook-f" />
-        </a>
-        <a className="teambtn" href={`https://www.instagram.com/${team.instagram_link}`} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-instagram" />
-        </a>
-        <a className="teambtn" href={`https://www.linkedin.com/in/${team.linkedin_link}`} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin-in" />
-        </a>
-        <a className="teambtn" href={team.website_link.startsWith('http') ? team.website_link : `https://${team.website_link}`} target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-globe" />
-        </a>
-    </div>
-</div>
+                                        <h2>{team.name}</h2>
+                                        <h4>{team.professional_title}</h4>
+                                        <div className="team-social">
+                                            <a className="teambtn" href={`https://www.facebook.com/${team.facebook_link}`} target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-facebook-f" />
+                                            </a>
+                                            <a className="teambtn" href={`https://www.instagram.com/${team.instagram_link}`} target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-instagram" />
+                                            </a>
+                                            <a className="teambtn" href={`https://www.linkedin.com/in/${team.linkedin_link}`} target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-linkedin-in" />
+                                            </a>
+                                            <a className="teambtn" href={team.website_link.startsWith('http') ? team.website_link : `https://${team.website_link}`} target="_blank" rel="noopener noreferrer">
+                                                <i className="fa fa-globe" />
+                                            </a>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>

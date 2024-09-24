@@ -1,4 +1,4 @@
-import { db } from "../config/dbConfig.js";
+import { db } from '../config/dbConfig.js';
 import jwt from "jsonwebtoken";
 
 export const getPosts = async (req, res) => {
