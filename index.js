@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
@@ -61,6 +63,4 @@ app.use((err, req, res, next) => {
 });
 
 // Start the server
-app.listen(8800, () => {
-  console.log("Server running on port 8800!");
-});
+app.listen();
